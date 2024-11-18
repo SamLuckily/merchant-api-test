@@ -1,0 +1,26 @@
+user_register:
+  - describe: 商户注册
+    currency: USD
+score_higher:
+  - describe: 游戏玩家上分
+    payID: 79d6ac30803b4da19b080dccf6de9cd9
+    coin: 10000.65
+    currency: USD
+score_divided:
+  - describe: 游戏玩家下分
+    payID: 79d6ac30803b4da19b080dccf6de9cd9
+    coin: 0.65
+    outall: false
+    currency: USD
+get_game_address:
+  - describe: 获取游戏地址
+    gameUUID: 70336b6b7f8a4de58ae8a7e008e3b9ce
+    gameLang: en
+query_betting_records:
+  - describe: 查询下注记录
+    page: 1
+    size: 10
+    gameLang: en
+    gameUUID: 70336b6b7f8a4de58ae8a7e008e3b9ce
+    startDate: 2024-11-18 00:00:00
+    endDate: 2024-12-31 23:59:59
