@@ -1,2 +1,0 @@
-[32mINFO    [0m utils.log_utils:BaseApi.py:66 发起的请求地址为===========>https://api.tgfun.io/openapi/v3/game/player/balance
-[32mINFO    [0m utils.log_utils:BaseApi.py:68 接口的响应信息为<==========={"code":"000000","message":null,"requestId":"120e4b9e-5bf0-49b1-b34c-4496b6b238e6","data":"0aae4bc08c683cb715f5ad485aad50829de05565528dbe6264c8741e25cc470600eb902d408d27c2f895dac034ecb47875ee61d4ac1f3ccb7e6ee758a715d59ec744fe718ceaf95dc75ad119039171943348344c5953173283d985b0bc5135d15b237b457532bb84edb96ec0e37712e6"}
