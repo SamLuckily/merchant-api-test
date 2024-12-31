@@ -77,3 +77,27 @@
 [2024-12-31 18:04:49] [INFO] [BaseApi.py]/[line: 68]/[send] 接口的响应信息为<==========={"code":"000000","message":null,"requestId":"cc874f44-d6d1-4510-9ffc-9af44d7979dc","data":"edc43f0daac35b6ab5a3e4c57b1cf86cf07dd0367467bf55549f8515b1768e9bd01fec2830e42c1c21bfbc13cc9cf6ab2bc5faf1226c3315580cba3176fe0d5f"} 
 [2024-12-31 18:04:50] [INFO] [BaseApi.py]/[line: 66]/[send] 发起的请求地址为===========>https://api.tgfun.io/openapi/v3/game/player/balance 
 [2024-12-31 18:04:50] [INFO] [BaseApi.py]/[line: 68]/[send] 接口的响应信息为<==========={"code":"000000","message":null,"requestId":"4b7b3ac7-583e-4e55-adcd-974406eb1c1e","data":"0aae4bc08c683cb715f5ad485aad50829de05565528dbe6264c8741e25cc470627065645c5b36727f6f0a3ef1323fef075ee61d4ac1f3ccb7e6ee758a715d59ec744fe718ceaf95dc75ad119039171943348344c5953173283d985b0bc5135d15b237b457532bb84edb96ec0e37712e6"} 
+[2024-12-31 19:39:01] [INFO] [database_utils.py]/[line: 34]/[query_db] 数据库连接成功 
+[2024-12-31 19:39:01] [INFO] [database_utils.py]/[line: 40]/[query_db] 创建的游标为 <pymysql.cursors.Cursor object at 0x0000022F68171750> 
+[2024-12-31 19:39:01] [INFO] [database_utils.py]/[line: 41]/[query_db] 要执行的sql语句为 SELECT * FROM box_player LIMIT 1; 
+[2024-12-31 19:39:01] [INFO] [database_utils.py]/[line: 47]/[query_db] 执行结果数据为 ((1, '170541036147374', 'Gbt419JARY', Decimal('0.0000'), Decimal('0.0000'), 'USD', 1, datetime.datetime(2024, 9, 9, 6, 19, 8, 88000), datetime.datetime(2024, 10, 12, 5, 7, 51, 281000)),) 
+[2024-12-31 19:39:02] [INFO] [database_utils.py]/[line: 34]/[query_db] 数据库连接成功 
+[2024-12-31 19:39:02] [INFO] [database_utils.py]/[line: 40]/[query_db] 创建的游标为 <pymysql.cursors.Cursor object at 0x0000022F682284F0> 
+[2024-12-31 19:39:02] [INFO] [database_utils.py]/[line: 41]/[query_db] 要执行的sql语句为 SELECT COUNT(*) FROM box_player WHERE PlayerID = '196714'; 
+[2024-12-31 19:39:02] [INFO] [database_utils.py]/[line: 47]/[query_db] 执行结果数据为 ((0,),) 
+[2024-12-31 19:39:02] [INFO] [database_utils.py]/[line: 34]/[query_db] 数据库连接成功 
+[2024-12-31 19:39:02] [INFO] [database_utils.py]/[line: 40]/[query_db] 创建的游标为 <pymysql.cursors.Cursor object at 0x0000022F68229E70> 
+[2024-12-31 19:39:02] [INFO] [database_utils.py]/[line: 41]/[query_db] 要执行的sql语句为 SELECT COUNT(*) FROM box_player WHERE PlayerName = 'OltAdvDJ'; 
+[2024-12-31 19:39:02] [INFO] [database_utils.py]/[line: 47]/[query_db] 执行结果数据为 ((0,),) 
+[2024-12-31 19:39:03] [INFO] [BaseApi.py]/[line: 66]/[send] 发起的请求地址为===========>https://api.tgfun.io/openapi/v3/game/create/player 
+[2024-12-31 19:39:05] [INFO] [BaseApi.py]/[line: 68]/[send] 接口的响应信息为<==========={"code":"000000","message":null,"requestId":"8189af89-8688-4eb0-a1e5-bf1944bfda21","data":"0aae4bc08c683cb715f5ad485aad5082f5cd55ec404a9f2ae51f709dd74f66a9"} 
+[2024-12-31 19:39:06] [INFO] [BaseApi.py]/[line: 66]/[send] 发起的请求地址为===========>https://api.tgfun.io/openapi/v3/game/transfer/in 
+[2024-12-31 19:39:07] [INFO] [BaseApi.py]/[line: 68]/[send] 接口的响应信息为<==========={"code":"000000","message":null,"requestId":"43d46527-8b8d-44e1-a920-93d1ee470387","data":"0aae4bc08c683cb715f5ad485aad50820ef594f28b8637fbabc0eb63f4c667160136b574cbb02949db09190d7c29e1301ff2ab74df78ec2254c3703fbc7f4ae6"} 
+[2024-12-31 19:39:08] [INFO] [BaseApi.py]/[line: 66]/[send] 发起的请求地址为===========>https://api.tgfun.io/openapi/v3/game/transfer/out 
+[2024-12-31 19:39:09] [INFO] [BaseApi.py]/[line: 68]/[send] 接口的响应信息为<==========={"code":"000000","message":null,"requestId":"cb0a643a-03fd-493a-bf1e-5146343ea803","data":"0aae4bc08c683cb715f5ad485aad508239545ef5c4ef9a8605f03c07080899d73e1135831c577bd6dfd1e2ce74f3d4fcc744fe718ceaf95dc75ad119039171943136ce9dec937479c45ede8530f8eea6240711d6372449e60157bc7aeeb0f0836527a6f0490f8256e3145a13f808d85ad3d789688725926f37d52b3f37dbeff9"} 
+[2024-12-31 19:39:11] [INFO] [BaseApi.py]/[line: 66]/[send] 发起的请求地址为===========>https://api.tgfun.io/openapi/v3/game/create/url 
+[2024-12-31 19:39:12] [INFO] [BaseApi.py]/[line: 68]/[send] 接口的响应信息为<==========={"code":"000000","message":null,"requestId":"75acb087-159d-4463-9602-f88e82962236","data":"0aae4bc08c683cb715f5ad485aad508237e934e2bfeb38f0f763c245de6586bee4ec3b38b160950043d11c74727899d4202957c85d2ecec4aa476ff2a8d23f3fc287b55a1f7d9e538f93c80d825be27e71fb89ab035dfaa49371f8a2183a6de86f3f5e553ee4e5ae02129f0e5f8c8ceb5752635b2cd2feca27dc0533e1d775e1361a0a4f5bb2fc4c46b3cfd87da40b1b445c6dea1a2ba7c0900843c27ee9e2b9818c33a816dbb983ac1ab0c8a3fa96b274ebb30889fd954bd0046a6f0babb472"} 
+[2024-12-31 19:39:13] [INFO] [BaseApi.py]/[line: 66]/[send] 发起的请求地址为===========>https://api.tgfun.io/openapi/v3/game/player/detail/list 
+[2024-12-31 19:39:15] [INFO] [BaseApi.py]/[line: 68]/[send] 接口的响应信息为<==========={"code":"000000","message":null,"requestId":"b5ab8dbf-2c21-402d-ab9c-0cff7847b52a","data":"edc43f0daac35b6ab5a3e4c57b1cf86cf07dd0367467bf55549f8515b1768e9bd01fec2830e42c1c21bfbc13cc9cf6ab2bc5faf1226c3315580cba3176fe0d5f"} 
+[2024-12-31 19:39:16] [INFO] [BaseApi.py]/[line: 66]/[send] 发起的请求地址为===========>https://api.tgfun.io/openapi/v3/game/player/balance 
+[2024-12-31 19:39:17] [INFO] [BaseApi.py]/[line: 68]/[send] 接口的响应信息为<==========={"code":"000000","message":null,"requestId":"719ec2ef-ab29-4702-973b-a725dd2f2ea0","data":"0aae4bc08c683cb715f5ad485aad50829de05565528dbe6264c8741e25cc47063b203995a6d8fbdce4a768f7a5403bd775ee61d4ac1f3ccb7e6ee758a715d59ec744fe718ceaf95dc75ad119039171943348344c5953173283d985b0bc5135d15b237b457532bb84edb96ec0e37712e6"} 
