@@ -1,6 +1,6 @@
 # 接口自动化测试的基础服务地址抽离
 base_url: "https://api.tgfun.io/"
 # 用户登录信息你
-appid: "ga6as02niqmb"
-secret: "105599370e0a4b718d73938d1ea99336"
-secret_key: "6CANzZfmtR7jvbGCtA35yw=="
+appid: "ga48qkmmv5jf"
+secret: "524e15ac31784b55863257c449fac903"
+secret_key: "RYMlMnFa+P60wT3Z8LVHdg=="

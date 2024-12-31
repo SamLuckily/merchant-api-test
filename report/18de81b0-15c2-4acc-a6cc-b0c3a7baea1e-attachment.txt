@@ -1,0 +1,2 @@
+[32mINFO    [0m utils.log_utils:BaseApi.py:66 发起的请求地址为===========>https://api.tgfun.io/openapi/v3/game/transfer/in
+[32mINFO    [0m utils.log_utils:BaseApi.py:68 接口的响应信息为<==========={"code":"000000","message":null,"requestId":"b6e3939c-4abc-40c8-b4af-68c5785198c2","data":"0aae4bc08c683cb715f5ad485aad50820ef594f28b8637fbabc0eb63f4c667160136b574cbb02949db09190d7c29e130708518c196c427aa97da28ed88e12285"}

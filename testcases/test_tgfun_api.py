@@ -17,7 +17,7 @@ class TestApi:
         # 玩家昵称
         self.player_name = RandomData.generate_unique_player_name()
         # V3密钥
-        self.secret_key = "6CANzZfmtR7jvbGCtA35yw=="
+        self.secret_key = "RYMlMnFa+P60wT3Z8LVHdg=="
 
     @allure.story("TgFun商户注册测试用例")
     @allure.title("商户注册")

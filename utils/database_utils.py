@@ -9,7 +9,7 @@ class Database:
     链接数据库之增删改查
     """
     database_info = {
-        'host': '13.250.201.86',
+        'host': '47.130.39.54',
         'user': 'ylgame',
         'password': 'mhSBhmHBEdpi3hXf',
         'db': 'ylgame',

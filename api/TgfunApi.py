@@ -13,7 +13,7 @@ class TgApi(BaseApi):
 
     def __init__(self):
         # 将 secret_key 定义为类的属性
-        self.secret_key = "6CANzZfmtR7jvbGCtA35yw=="
+        self.secret_key = "RYMlMnFa+P60wT3Z8LVHdg=="
 
     def user_register(self, player_id, player_name, currency):
         """注册用户"""
