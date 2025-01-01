@@ -14,13 +14,13 @@ score_divided:
     currency: USD
 get_game_address:
   - describe: 获取游戏地址
-    gameUUID: 02dca52124ea47e0bda75262e6ccbab0
+    gameUUID: 8c071eac2b02475abc20a96758112672
     gameLang: en
 query_betting_records:
   - describe: 查询下注记录
     page: 1
     size: 10
     gameLang: en
-    gameUUID: 02dca52124ea47e0bda75262e6ccbab0
+    gameUUID: 8c071eac2b02475abc20a96758112672
     startDate: 2024-12-31 00:00:00
     endDate: 2024-12-31 23:59:59

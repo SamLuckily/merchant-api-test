@@ -1,0 +1,10 @@
+[32mINFO    [0m utils.log_utils:database_utils.py:34 数据库连接成功
+[32mINFO    [0m utils.log_utils:database_utils.py:40 创建的游标为 <pymysql.cursors.Cursor object at 0x00000216D8486290>
+[32mINFO    [0m utils.log_utils:database_utils.py:41 要执行的sql语句为 SELECT COUNT(*) FROM box_player WHERE PlayerID = '702574';
+[32mINFO    [0m utils.log_utils:database_utils.py:47 执行结果数据为 ((0,),)
+[32mINFO    [0m utils.log_utils:database_utils.py:34 数据库连接成功
+[32mINFO    [0m utils.log_utils:database_utils.py:40 创建的游标为 <pymysql.cursors.Cursor object at 0x00000216D8484C40>
+[32mINFO    [0m utils.log_utils:database_utils.py:41 要执行的sql语句为 SELECT COUNT(*) FROM box_player WHERE PlayerName = 'hbNSSVMX';
+[32mINFO    [0m utils.log_utils:database_utils.py:47 执行结果数据为 ((0,),)
+[32mINFO    [0m utils.log_utils:BaseApi.py:66 发起的请求地址为===========>https://api.tgfun.io/openapi/v3/game/create/player
+[32mINFO    [0m utils.log_utils:BaseApi.py:68 接口的响应信息为<==========={"code":"000000","message":null,"requestId":"2a818c49-5524-46cf-80e2-a85a46d6b846","data":"0aae4bc08c683cb715f5ad485aad5082f5cd55ec404a9f2ae51f709dd74f66a9"}
